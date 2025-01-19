@@ -24,4 +24,17 @@
  
 <p>On the image below - the top computer would be the host computer. The three computers below the host are referred to as guest virtual machines.</p>
 
-<img src="" alt="A virtualisation image">
+<img src="Folder/virtual home machine.png" alt="A virtualisation image">
+<p>Virtual machines act like real computers, but run as a software program. So you can start, restart, shut down, install software and operating systems just like you would on a normal computer.
+This makes virtual machines perfect for IT labs.</p>
+
+<h2>Free Virtualization Software</h2>
+<p>With so many different virtualization software options available, it can be pretty confusing to know which one is the "best" and which one you should use. Let's address this now.</p>
+ 
+<P>There is no "best" virtualization software. There are simply different options - and the ones you should consider will depend on your host operating system.</P>
+ 
+<p>In this setup I will be using Oracle VM VirtualBox because it is compatible with both Windows and Linux, but you can use any you want. The steps will nearly be identical to other virtualization software. </p>
+
+ 
+<h2>Downloading and Installing VirtualBox</h2>
+<p>Download Oracle VM VirtualBox by <a href="url">clicking here.</a> Once the download completes, I launched the installation.</p>
