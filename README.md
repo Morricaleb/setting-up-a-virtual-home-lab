@@ -138,6 +138,13 @@ Configure the Networking tab for your chosen network type. Again, the easiest so
 
 <p>Click OK and now when we launch the VM you will be able to begin your OS installation.
 I mounted a Windows Server 2016 ISO so when I launch the VM I will see the installation screen for this OS.</p>
+<img src="Folder/Windows-Server-2016-Install-2.jpg">
+<P>Now you can run through your OS installation and complete your lab setup.
+Wrapping it Up...</P>
+
+<p>That's it! Now you can  create some awesome IT labs and get more IT experience!</p>
+
+
 
 
 
