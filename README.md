@@ -101,6 +101,9 @@ The generic driver attachment is special and cannot be considered as an alternat
 <p>First I will select File > Preferences, then navigate to the Network tab. Next I will click the plus button (circled in the image above).</p>
 
 <p>This will create a new NAT Network. If I want to modify the subnet, disable DHCP or support IPv6 I can do this by double-clicking the NAT Network.</p>
+<img src="Folder/NAT-Network-2.jpg">
+<p>I am going to leave all of these options at default... so I am done creating the Virtual Network!
+Configure the Networking tab for your chosen network type. Again, the easiest solution is to create and use a NAT Network.</p>
 
 
 
