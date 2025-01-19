@@ -39,5 +39,7 @@ This makes virtual machines perfect for IT labs.</p>
 <h2>Downloading and Installing VirtualBox</h2>
 <p>Download Oracle VM VirtualBox by <a href="url">clicking here.</a> Once the download completes, I launched the installation.</p>
 
-<img src="https://github.com/Morricaleb/setting-up-a-virtual-home-lab/blob/51978c20359cd851a214814043ec46ff6cd0e8b0/Folder/VirtualBox-Complete.jpg">
+<img src="Folder/VirtualBox-Install.jpg">
 <p>I Proceeded through the installation using all of the default options. Any prompts that are a yes/no you need to select "yes'.</p>
+<img src="https://github.com/Morricaleb/setting-up-a-virtual-home-lab/blob/51978c20359cd851a214814043ec46ff6cd0e8b0/Folder/VirtualBox-Complete.jpg">
+<P>Click Finish and launch VirtualBox.</P>
