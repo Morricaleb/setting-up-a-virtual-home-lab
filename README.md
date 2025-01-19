@@ -91,6 +91,16 @@ Using an Internal Network is as simple as right-clicking your VM and selecting S
 <P>This is essentially the same as an internal network, except that your host computer will have a direct IP connection to the VM. Meaning you can RDP, SSH or ping the VMs from the host computer. Use this network type when you will need direct access to the VMs from your host computer. It is commonly used for test web servers (think copying files from the host computer to the VM web server, or directly editing the code on the web server VM from your host computer.</P>
  
 <p>You can create a host-only network by select File > Host Network Manager</p>
+<img src="Folder/Host-Only-Network-Adapters.jpg">
+<h2>Generic Driver</h2>
+<p>Oracles documentation for the generic driver states:
+The generic driver attachment is special and cannot be considered as an alternative to other attachment types.</p>
+
+<p>I am going to use a NAT Network since this will allow me to connect my VMs to each other and the internet.</p> 
+
+<p>First I will select File > Preferences, then navigate to the Network tab. Next I will click the plus button (circled in the image above).</p>
+
+<p>This will create a new NAT Network. If I want to modify the subnet, disable DHCP or support IPv6 I can do this by double-clicking the NAT Network.</p>
 
 
 
