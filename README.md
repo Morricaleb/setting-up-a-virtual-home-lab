@@ -67,6 +67,17 @@ Pro tip: Storing the VM's hard disk file on an SSD will also significantly incre
 <p>Keep in mind that you won't be able to access all of these network types if you haven't created a VM because some of them are configured from within the VM settings.</p>
  
 <p>Here is an overview of the different network types you could create:</p>
+<img src="Folder/VirtualBox-VM-Adapter-Types.jpg">
+<h2>NAT</h2>
+<p>This network type allows your VMs to use the internet connectivity of the host computer. You will have no connectivity to other VMs or the host computer. Use this type if your lab will only have one VM.</p>
+ 
+<p>Using NAT is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)</p>
+
+<h2>NAT Network</h2>
+<p>This network is the same as NAT, but it allows your VMs to communicate to other VMs that are attached to the same NAT network. Use this when your labs use multiple VMs and need internet connectivity.</p>
+ 
+<p>You can create a NAT Network by clicking on File > Preferences. Select the Network tab and then click the plus button to create a new NAT Network.</p>
+
 
 
 
