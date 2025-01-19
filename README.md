@@ -77,6 +77,21 @@ Pro tip: Storing the VM's hard disk file on an SSD will also significantly incre
 <p>This network is the same as NAT, but it allows your VMs to communicate to other VMs that are attached to the same NAT network. Use this when your labs use multiple VMs and need internet connectivity.</p>
  
 <p>You can create a NAT Network by clicking on File > Preferences. Select the Network tab and then click the plus button to create a new NAT Network.</p>
+<img src="Folder/NAT-Network.jpg">
+<h2>Bridged Adapter</h2>
+<p>Using this network type will cause your router to treat your VM as a physical computer. This means your VM will be connected to the same network as your host computer. Use this lab when you need to access your VMs from your host network.</p>
+
+<p>Using a bridged adapter is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)</p>
+
+<h2>Internal Network</h2>
+<p>This network provides your VMs with connectivity but no external access. Use this when you want to create an isolated IT lab.
+Using an Internal Network is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)</p>
+
+<h2>Host-only Adapter</h2>
+<P>This is essentially the same as an internal network, except that your host computer will have a direct IP connection to the VM. Meaning you can RDP, SSH or ping the VMs from the host computer. Use this network type when you will need direct access to the VMs from your host computer. It is commonly used for test web servers (think copying files from the host computer to the VM web server, or directly editing the code on the web server VM from your host computer.</P>
+ 
+<p>You can create a host-only network by select File > Host Network Manager</p>
+
 
 
 
