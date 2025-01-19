@@ -43,3 +43,6 @@ This makes virtual machines perfect for IT labs.</p>
 <p>I Proceeded through the installation using all of the default options. Any prompts that are a yes/no you need to select "yes'.</p>
 <img src="https://github.com/Morricaleb/setting-up-a-virtual-home-lab/blob/51978c20359cd851a214814043ec46ff6cd0e8b0/Folder/VirtualBox-Complete.jpg">
 <P>Click Finish and launch VirtualBox.</P>
+<img src="Folder/VirtualBox-Dashboard.jpg">
+<h2>Creating a Virtual Machine</h2>
+<p>Now that we know what type of virtual network we want to use it's time to create a VM (Virtual Machine). We can do this by clicking the New button within the VirtualBox Manager.</p>
