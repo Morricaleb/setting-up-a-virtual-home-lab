@@ -58,6 +58,15 @@ Now you will see MyVM listed on the VirtualBox dashboard. Before we start the VM
 <img src="Folder/VM-Settings.jpg">
 <P>Increasing the processor CPUs can greatly improve the performance of your VM, so if at all possible increase the number of CPUs to 2.
 Pro tip: Storing the VM's hard disk file on an SSD will also significantly increase the VMs performance.</P>
+<img src="Folder/CPUs.jpg">
+<p>And that is all we need to do to create the VM. Of course we can't start the VM yet because we haven't downloaded or attached an operating system ISO... But we will cover that in the next section.</p>
+
+<h2>Creating a Virtual Network with VirtualBox</h2>
+<p>Virtual Networks allow you to connect your VMs to whatever you want. There are several different types of networks you can create with VirtualBox and the one you chose will depend on your requirements.</p>
+ 
+<p>Keep in mind that you won't be able to access all of these network types if you haven't created a VM because some of them are configured from within the VM settings.</p>
+ 
+<p>Here is an overview of the different network types you could create:</p>
 
 
 
