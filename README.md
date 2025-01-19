@@ -104,6 +104,36 @@ The generic driver attachment is special and cannot be considered as an alternat
 <img src="Folder/NAT-Network-2.jpg">
 <p>I am going to leave all of these options at default... so I am done creating the Virtual Network!
 Configure the Networking tab for your chosen network type. Again, the easiest solution is to create and use a NAT Network.</p>
+<img src="Folder/VM-Network.jpg">
+<h2>Downloading Your operating systems ISO(s)</h2>
+
+<p>Next we need an operating system (OS) to install on our Virtual Machines. You could do this with a physical disc if you wanted, but most of the time you will want to download an ISO for OS installations.</p>
+ 
+<p>The easiest way to find what you're looking for is to simply google the name of your operating system with "ISO download" in the search.  For example if you want Windows Server 2016, just search </p>
+
+<a href="url">"Windows Server 2016 ISO Download"</a>
+<p>You should ONLY download ISOs from official websites. This means you shouldn't download Windows Server from a website like "sneakyfreecdkeys.com"...</p>
+
+<p>I will still provide links to the most common operating systems that people want to install below. Keep in mind if the link is dead you can just run a quick google search and easily find the download.</p>
+<p><a 
+    href="url">Windows Server 2016</a>
+</p>
+<p><a 
+    href="url">Windows 10 (requires a valid Windows 10 license to download)</a>
+</p>
+ <a href="url">Centos 7</a>
+</P>
+<p><a 
+    href="url">Ubuntu</a>
+</p>
+<p><a 
+    href="url">Kali Linux</a>
+</p>
+
+<h2>Installing an OS on Your Lab VMs</h2>
+<p>Once you have downloaded your ISO file, it's time to mount it to your VM in VirtualBox. Mounting a VM is essentially like virtually inserting a disc into a DVD drive of a computer.</p>
+ 
+<p>Right click on your VM and select settings then open the Storage tab. From there click the Empty disc icon, then again the disc icon under Attributes on the right hand side of the window. Click the Choose Virtual Optical Disk File... and browse to and open your desired ISO.</p>
 
 
 
