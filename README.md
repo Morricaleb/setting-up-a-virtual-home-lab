@@ -52,6 +52,8 @@ This makes virtual machines perfect for IT labs.</p>
 <p>I am going to specify a name of "MyVM" and 2048 MB (2gb) of RAM then I will click Create.</p>
 <img src="Folder/New-Vm2.jpg">
 <p>This will open another window for creating the Virtual Hard Disk. The default options here are all fine except for the File Size. I am going to set my new HDD to 60GB and then choose Create.</p>
-
+<img src="Folder/New-VM-HDD.jpg">
+<p>Since this HDD is going to be dynamically allocated (option on the middle-right of the screenshot below), the HDD file will only be as large as the amount of data stored on it - and a maximum of 60GB
+Now you will see MyVM listed on the VirtualBox dashboard. Before we start the VM we can modify the settings of the VM if we want. Generally you might want to assign more processors, change the networking adapters and mount an ISO.</p>
 
 
