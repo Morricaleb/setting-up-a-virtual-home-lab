@@ -48,5 +48,8 @@ This makes virtual machines perfect for IT labs.</p>
 <p>Now that we know what type of virtual network we want to use it's time to create a VM (Virtual Machine). We can do this by clicking the New button within the VirtualBox Manager.</p>
 <img src="Folder/New.jpg">
 <P>This will launch the new VM window. Go ahead and click the Expert Mode button. Don't worry - it doesn't make the process more difficult it only allows you to create a VM while navigating through less pages.</P>
+<img src="Folder/New-VM.jpg">
+<p>I am going to specify a name of "MyVM" and 2048 MB (2gb) of RAM then I will click Create.</p>
+
 
 
